@@ -1,16 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Mitr:wght@300&family=Poppins:wght@400;500;600;700&display=swap");
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", "Mitr", sans-serif;
 }
-
 body {
     background-color: #f1f1f1;
 }
-
 .main {
     display: flex;
     flex-direction: column;
@@ -20,7 +17,6 @@ body {
     margin: 5rem auto;
     background-image: linear-gradient(to right bottom, #f8ced5, #ffb6c1);
 }
-
 h1 {
     padding: 1rem;
     color: white;
@@ -30,13 +26,11 @@ h1 {
     font-weight: 700;
     opacity: 0.7;
 }
-
 #todo-form {
     margin: auto;
     max-width: 100%;
     width: 400px;
 }
-
 #todo-input {
     color: #202020;
     font-size: 1rem;
@@ -47,23 +41,19 @@ h1 {
     width: 100%;
     transition: 0.25s ease-in-out;
 }
-
 #todo-input:focus {
     outline: none;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
-
 #todo-input::placeholder {
     color: #a7a8b4;
 }
-
 #todos {
     margin: auto;
     max-width: 100%;
     width: 400px;
     list-style-type: none;
 }
-
 #todos li {
     color: #202020;
     background-color: white;
@@ -74,17 +64,14 @@ h1 {
     width: 100%;
     transition: 0.25s ease-in-out;
 }
-
 #todos li.completed {
     color: #bcbccc;
     text-decoration: line-through;
 }
-
 #todos li:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transform: translateY(-2px);
 }
-
 #delete-btn {
     background-color: white;
     padding: 0.5rem 1rem;
@@ -95,14 +82,12 @@ h1 {
     opacity: 0.5;
     transition: 0.25s ease-in-out;
 }
-
 #delete-btn:hover {
     opacity: 1;
     color: white;
     background-color: #fd5774;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
-
 p {
     margin-top: -3rem;
     padding-bottom: 2rem;
